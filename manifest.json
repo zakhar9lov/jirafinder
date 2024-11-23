@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Jira Finder",
+  "version": "1.0",
+  "description": "Добавляет пункт в контекстное меню для поиска задачи в Jira.",
+  "permissions": [
+    "messagesRead",
+    "menus", 
+    "clipboardWrite"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "applications": {
+    "gecko": {
+      "id": "copy-subject@yourdomain.com"
+    }
+  }
+}
